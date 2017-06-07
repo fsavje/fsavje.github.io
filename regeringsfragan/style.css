@@ -1,0 +1,212 @@
+body {
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+img {
+	border: 0;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color:#0645AD;
+}
+a:visited {
+	color:#0B0080;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color:#FAA700;
+}
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	margin-bottom: 60px;
+}
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 26px;
+	text-align: left;
+}
+
+#main {
+	width: 90%;
+	max-width: 800px;
+	margin: 140px auto 50px auto;
+	text-align: center;
+}
+
+#main p {
+	text-align: justify;
+	width: 80%;
+	margin: 20px auto;
+	line-height: 1.6;
+}
+
+#cred {
+	margin: 80px 0 30px 0;
+	font-size: 16px;
+}
+#cred p {
+	text-align: center;
+}
+#license {
+	margin: 30px 0 80px 0;
+	text-align: center;
+}
+
+p#beskrivning {
+	text-align: justify;
+	width: 100%;
+}
+
+.kallor {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.kallor li {
+	list-style-type: none;
+	margin: 12px 0;
+}
+.kallor li .it {
+	font-style: italic;
+}
+
+table {
+	margin: 30px auto;
+}
+
+table td {
+	width: 32px;
+	height: 30px;
+	font-size: 16px;
+}
+
+
+.kmangd {
+	margin: 25px 0;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.kmangd ul {
+	margin: 5px 3px;
+	padding: 3px;
+	display: inline-block;
+	border-style: solid;
+    border-width: 1px;
+	list-style-type: none;
+	max-width: 180px;
+}
+
+.kmangd ul.k2 {
+	max-width: 42px;
+}
+
+.kmangd ul.k5,ul.k6 {
+	max-width: 134px;
+}
+
+.kmangd ul.k3,ul.k4 {
+	max-width: 88px;
+}
+.kmangd ul.ka {
+	max-width: 300px;
+}
+
+.kmangd ul  li{
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+}
+
+.kmangd img {
+	width: 32px;
+	height: 32px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 3px;
+}
+
+.exp {
+	position: relative;
+	cursor: pointer;
+	margin: 40px 0;
+}
+
+.exp .kmangd {
+	margin: 0;
+}
+
+#alla {
+	max-height: 200px;
+	overflow: hidden;
+	transition:             max-height 3s ease;
+        -moz-transition:    max-height 3s ease;
+        -ms-transition:     max-height 3s ease;
+        -o-transition:      max-height 3s ease;
+        -webkit-transition: max-height 3s ease;
+}
+
+#majoritet {
+	max-height: 200px;
+	overflow: hidden;
+	transition:             max-height 3s ease;
+        -moz-transition:    max-height 3s ease;
+        -ms-transition:     max-height 3s ease;
+        -o-transition:      max-height 3s ease;
+        -webkit-transition: max-height 3s ease;
+}
+
+.fargfassyn {
+	height: 100px;
+	width: 100%;
+	position: absolute;
+    bottom: 0;
+	background: -webkit-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,1));
+	background: -o-linear-gradient(bottom,rgba(255,255,255,0),rgba(2255,255,255,1));
+	background: -moz-linear-gradient(bottom,rgba(255,255,255,0),rgba(255,255,255,1));
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+	-webkit-transition: background-color 3s ease;
+    -moz-transition: background-color 3s ease;
+    -o-transition: background-color 3s ease;
+    transition: background-color 3s ease;
+}
+
+.fargfasosyn {
+	height: 100px;
+	width: 100%;
+	position: absolute;
+    bottom: 0;
+	background: -webkit-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,0));
+	background: -o-linear-gradient(bottom,rgba(255,255,255,0),rgba(2255,255,255,0));
+	background: -moz-linear-gradient(bottom,rgba(255,255,255,0),rgba(255,255,255,0));
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0));
+	-webkit-transition: background-color 3s ease;
+    -moz-transition: background-color 3s ease;
+    -o-transition: background-color 3s ease;
+    transition: background-color 3s ease;
+}
+
+#skala {
+	height: 130px;
+	width: 100%;
+	position: relative;
+	margin: 35px 0;
+}
+#skala div{
+	position: absolute;
+}
+
+#skala img {
+	width: 32px;
+	height: 32px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 3px;
+}

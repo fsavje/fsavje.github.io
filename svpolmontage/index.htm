@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<title>Valet 2014 i nio tweets</title>
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-42500219-1', 'fredriksavje.com');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+
+<div id="main">
+
+<h1>Valet 2014 i nio tweets</h1>
+
+<p>En dator fick l&auml;sa riksdagspartiernas (plus Fi:s) partiprogram sen automatiskt sammanfatta inneh&aring;llet med en enda tweet. H&auml;r &auml;r resultatet.</p>
+
+<ul>
+	<li id="firstli"><img src="socialdemokrat.png" alt="@socialdemokrat : Klassklyftorna besk&auml;r m&auml;nniskors frihet. P&aring; s&aring; s&auml;tt formar samh&auml;llet m&auml;nniskans agerande. Ingen m&auml;nniska &auml;r en &ouml;. M&auml;nniskorna kan ta makten."></li>
+
+	<li><img src="nya_moderaterna.png" alt="@nya_moderaterna: M&auml;nniskor beh&ouml;ver frihet f&ouml;r att utveckla sin potential. M&auml;nniskor och gemenskaper &auml;r kulturb&auml;rare. M&auml;nniskan har b&aring;de f&ouml;rm&aring;gor och brister."></li>
+
+	<li><img src="miljopartiet.png" alt="@miljopartiet: Samh&auml;llet &auml;r n&aring;got m&auml;nniskor skapar tillsammans. Ingen m&auml;nniska &auml;r illegal. Bilismens problem beh&ouml;ver l&ouml;sas."></li>
+
+	<li><img src="folkpartiet.png" alt="@folkpartiet: Folkpartiet &auml;r Sveriges liberala parti. S&auml;rskilt pojkars kunskapsresultat beh&ouml;ver h&ouml;jas. EU-kommissionens legitimitet beh&ouml;ver f&ouml;rb&auml;ttras."></li>
+
+	<li><img src="Centerpartiet.png" alt="@Centerpartiet: En m&auml;nniskas frihet kan i grunden endast begr&auml;nsas av h&auml;nsyn till andras lika r&auml;tt till frihet. Staten &auml;r till f&ouml;r m&auml;nniskan, inte tv&auml;rtom."></li>
+
+	<li><img src="sdriks.png" alt="@sdriks: Sverigedemokraterna definierar den svenska nationen i termer av lojalitet, gemensam identitet, gemensamt spr&aring;k och gemensam kultur."></li>
+
+	<li><img src="vansterpartiet.png" alt="@vansterpartiet: Den politiska, sociala och ekonomiska verkligheten f&ouml;r&auml;ndras st&auml;ndigt. Sociala och demokratiska r&auml;ttigheter ska &ouml;verordnas kapitalets frihet"></li>
+
+	<li><img src="kdriks.png" alt="@kdriks: M&auml;nniskan &auml;r ett m&aring;l i sig. R&auml;ttvisa r&ouml;r relationer m&auml;nniskor emellan. Alla m&auml;nniskor beg&aring;r misstag."></li>
+
+	<li><img src="Feministerna.png" alt="@Feministerna: Fi ska verka f&ouml;r kvinnors r&auml;tt att v&auml;lja abortmetod. Fi verkar f&ouml;r en politik som st&auml;rker pappersl&ouml;sa kvinnors r&auml;ttigheter."></li>
+</ul>
+
+<div id="cred">
+	<p>Ett montage, som inte borde tas p&aring; allt f&ouml;r stort allvar, av <a href="http://fredriksavje.com">Fredrik S&auml;vje</a>.</p>
+	<p>Lades upp 2014-08-19.</p>
+</div>
+
+<div id="license">
+	<a href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons-licens" src="by-sa.png" /></a>
+</div>
+
+<h2>Hur jag gjorde</h2>
+<p id="beskrivning">Parti-, id&eacute;- och principprogrammen laddades ner fr&aring;n partiernas hemsidor och rensades p&aring; allt utom br&ouml;dtext. D&auml;refter togs rubriker och listtecken bort. "Skall" &auml;ndrades till "ska" eftersom "skall" inte fanns med i sammanfattningsprogrammets lista &ouml;ver vanliga ord. Om texten nu var l&auml;ngre &auml;n 20 000 ord kortades den ned s&aring; att de 20 000 f&ouml;rsta orden anv&auml;ndes (annars kraschar sammanfattningsprogrammet). Textfilerna finns att ladda ner <a href="http://fredriksavje.com/svpolmontage/partiprogram.zip">h&auml;r</a>. De k&ouml;rdes sen genom <a href="http://swesum.nada.kth.se">SweSum</a> med standardinst&auml;llningar f&ouml;r rapporter. Meningarna som, enligt algoritmen, b&auml;st sammanfattade inneh&aring;llet togs ut som tweets. Detta gjordes tills tweetsen hade minst 100 och h&ouml;gst 140 tecken. Meningar som var l&auml;ngre &auml;n 140 tecken ignorerades. Om det var m&ouml;jligt, utan att &auml;ndra betydelsen, gjordes mindre omskrivningar och f&ouml;rkortningar. Om det fanns fler &auml;n en mening ordnades de s&aring; att meddelande blev s&aring; sammanh&auml;ngande som m&ouml;jligt. Bilderna p&aring; tweetsen gjordes med <a href="http://lemmetweetthatforyou.com">lemmetweetthatforyou.com</a>. Ordningen av tweetsen och antalet re-tweets grundar sig p&aring; partiernas <a href="http://www.val.se/val/val2010/slutresultat/R/rike/">valresultat 2010</a>.</p>
+
+</div>
+
+</body>
+</html>
