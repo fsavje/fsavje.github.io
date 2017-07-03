@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fredriksavje.com/categories/</loc>
+    <loc>http://fredriksavje.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fredriksavje.com/</loc>
+    <loc>http://fredriksavje.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fredriksavje.com/tags/</loc>
+    <loc>http://fredriksavje.com/tags/</loc>
     <priority>0</priority>
   </url>
   
