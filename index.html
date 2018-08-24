@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="generator" content="Hugo 0.21">
+	<meta name="generator" content="Hugo 0.46">
 
 	<title>Fredrik Sävje</title>
 
@@ -44,10 +44,12 @@
 		<div class="hidden-sm hidden-md hidden-lg title">
 			<h1>Fredrik Sävje</h1>
 			<h1 style="display: none;">Fredrik Savje</h1>
-			<p>Assistant Professor</p>
-			<p>Department of Political Science</p>
-			<p>Department of Statistics and Data Science</p>
-			<p>Yale University</p>
+			<ul>
+				<li>Assistant Professor</li>
+				<li>Department of Political Science</li>
+				<li>Department of Statistics and Data Science</li>
+				<li>Yale University</li>
+			</ul>
 		</div>
 
 		<img src="img/fredrik.jpg" class="img-responsive" alt="Picture of Fredrik Sävje">
@@ -63,19 +65,25 @@
 			<li><a href="fredrik-savje-cv.pdf" onclick="ga('send', 'event', 'download-cv', 'download-cv');">Curriculum Vitae</a></li>
 		</ul>
 
-		<h3>Contact me</h3>
+		<h3>Office</h3>
 
 		<address>
-			ISPS, Yale University <br>
-			77 Prospect Street <br>
-			New Haven, CT 06511
+			Room 226 <br>
+			Rosenkranz Hall <br>
+			125 Prospect Street
 		</address>
 
-		<address>
+		<h3>Contact me</h3>
+
+		<address class="contact">
+			&#43;1 (203) 432 4672<br>
 			<a href="mailto:fredrik.savje@yale.edu">fredrik.savje@yale.edu</a>
 		</address>
 
-		
+		<ul style="display: none;">
+			<li><a href="fredrik-savje.asc">PGP</a></li>
+			<li><a href="fredrik-savje.pub">SSH</a></li>
+		</ul>
 
 	</div>
 
@@ -83,10 +91,13 @@
 
 		<div class="hidden-xs title">
 			<h1>Fredrik Sävje</h1>
-			<p>Assistant Professor</p>
-			<p>Department of Political Science</p>
-			<p>Department of Statistics and Data Science</p>
-			<p>Yale University</p>
+			<h1 style="display: none;">Fredrik Savje</h1>
+			<ul>
+				<li>Assistant Professor</li>
+				<li>Department of Political Science</li>
+				<li>Department of Statistics and Data Science</li>
+				<li>Yale University</li>
+			</ul>
 		</div>
 
 
@@ -104,7 +115,6 @@
 				<div class="collapsecontainer"><div class="collapse" id="Higgins2016Threshold_abstract"><div class="well well-sm abstract">Inferences from randomized experiments can be improved by blocking: assigning treatment in fixed proportions within groups of similar units. However, the use of the method is limited by the difficulty in deriving these groups. Current blocking methods are restricted to special cases or run in exponential time; are not sensitive to clustering of data points; and are often heuristic, providing an unsatisfactory solution in many common instances. We present an algorithm that implements a widely applicable class of blocking—threshold blocking—that solves these problems. Given a minimum required group size and a distance metric, we study the blocking problem of minimizing the maximum distance between any two units within the same group. We prove this is a nondeterministic polynomial-time hard problem and derive an approximation algorithm that yields a blocking where the maximum distance is guaranteed to be, at most, four times the optimal value. This algorithm runs in O(n log n) time with O(n) space complexity. This makes it, to our knowledge, the first blocking method with an ensured level of performance that works in massive experiments. Whereas many commonly used algorithms form pairs of units, our algorithm constructs the groups flexibly for any chosen minimum size. This facilitates complex experiments with several treatment arms and clustered data. A simulation study demonstrates the efficiency and efficacy of the algorithm; tens of millions of units can be blocked using a desktop computer in a few minutes.</div></div></div>
 			</li>
 		</ul>
-
 
 
 		<h2>Software</h2>
@@ -132,10 +142,18 @@
 		</ul>
 
 
-
 		<h2>Working papers</h2>
 
 		<ul class="paperlist wps">
+			<li>
+				<h4>
+					<a href="https://arxiv.org/abs/1711.06399" onclick="ga('send', 'event', 'paper', 'Savje2018EATE');">Average treatment effects in the presence of unknown interference,</a>
+					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Savje2018EATE_abstract" aria-expanded="false" aria-controls="#Savje2018EATE_abstract">Abstract</button>
+				</h4>
+				<div class="paperinfo"><span class="coauthors">with <a href="http://aronow.research.yale.edu">Peter Aronow</a> and <a href="http://www.bios.unc.edu/~mhudgens/">Michael Hudgens</a>.</span></div><div class="paperinfo"></div>
+				<div class="collapsecontainer"><div class="collapse" id="Savje2018EATE_abstract"><div class="well well-sm abstract">We investigate large-sample properties of treatment effect estimators under unknown interference in randomized experiments. The inferential target is a generalization of the average treatment effect estimand that marginalizes over potential spillover effects. We show that estimators commonly used to estimate treatment effects under no-interference are consistent for the generalized estimand for most experimental designs under limited but otherwise arbitrary and unknown interference. The rates of convergence depend on the rate at which the amount of interference grows and the degree to which it aligns with dependencies in treatment assignment. Importantly for practitioners, the results imply that if one erroneously assumes that units do not interfere in a setting with limited, or even moderate, interference, standard estimators are nevertheless likely to be close to an average treatment effect if the sample is sufficiently large.</div></div></div>
+			</li>
+		
 			<li>
 				<h4>
 					<a href="https://arxiv.org/abs/1703.03882" onclick="ga('send', 'event', 'paper', 'Savje2017FullMatch');">Generalized Full Matching,</a>
@@ -174,13 +192,32 @@
 		</ul>
 
 
-
 		<h2>Works in progress</h2>
 
 		<ul class="paperlist wsip">
 			<li>
-				<h4>Average treatment effects under unknown interference,</h4>
-				<div class="paperinfo"><span class="coauthors">with <a href="http://aronow.research.yale.edu">Peter Aronow</a> and <a href="http://www.bios.unc.edu/~mhudgens/">Michael Hudgens</a>.</span></div>
+				<h4>Improving convenience samples through shared questions,</h4>
+				<div class="paperinfo"><span class="coauthors">with <a href="https://jonathonbaron.github.io">Jonathon Baron</a>, <a href="https://mollyow.github.io">Molly Offer-Westort</a>, Jun Won Park and <a href="http://aronow.research.yale.edu">Peter Aronow</a>.</span></div>
+			</li>
+		
+			<li>
+				<h4>On the power of regression discontinuity designs,</h4>
+				<div class="paperinfo"><span class="coauthors">with <a href="http://aronow.research.yale.edu">Peter Aronow</a>, William Hunt and Drew Stommes.</span></div>
+			</li>
+		
+			<li>
+				<h4>Are most experiments under-powered?,</h4>
+				<div class="paperinfo"><span class="coauthors">with <a href="http://www.garethnellis.com">Gareth Nellis</a>.</span></div>
+			</li>
+		
+			<li>
+				<h4>Purposeful case selection without bias,</h4>
+				<div class="paperinfo"><span class="coauthors">with Consuelo Amat Matus and <a href="http://aronow.research.yale.edu">Peter Aronow</a>.</span></div>
+			</li>
+		
+			<li>
+				<h4>On the use of principal stratification to identify incumbency effects,</h4>
+				<div class="paperinfo"><span class="coauthors">with Dylan O&#39;Connell.</span></div>
 			</li>
 		
 			<li>
@@ -206,7 +243,7 @@
 			</li>
 		
 			<li>
-				<h4>Intuitive construction of distance matrices and metrics (software).</h4>
+				<h4>Intuitive construction of distance matrices and metrics.</h4>
 			</li>
 		
 			<li>
@@ -216,7 +253,7 @@
 		</ul>
 
 		<div class="updated-time">
-			Last updated July 3, 2017.
+			Last updated August 24, 2018.
 		</div>
 	</div>
 

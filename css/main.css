@@ -40,6 +40,14 @@ a:active {
 .title {
 	margin-bottom: 60px;
 }
+.title ul {
+	list-style-type: none;
+   margin-top: 20px;
+	padding: 0;
+}
+.title ul li {
+   margin-top: 6px;
+}
 
 .sidecol {
 	padding-top: 40px;
@@ -50,7 +58,7 @@ a:active {
 }
 .sidecol ul {
 	list-style-type: none;
-    margin: 0;
+   margin: 0;
 	padding: 0;
 }
 .sidecol .menu {
@@ -82,6 +90,15 @@ a:active {
 	color: #0645AD;
 }
 
+.sidecol h3 {
+	margin-bottom: 6px;
+}
+.sidecol address {
+	margin-bottom: 30px;
+}
+.sidecol address.contact {
+	line-height: 1.8;
+}
 
 .maintext {
 	padding: 40px 30px;
