@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="generator" content="Hugo 0.62.0">
+	<meta name="generator" content="Hugo 0.66.0">
 
 	<title>Fredrik Sävje</title>
 
@@ -107,7 +107,7 @@
 					<a href="https://arxiv.org/abs/1911.03071" onclick="ga('send', 'event', 'paper', 'Harshaw2019Balancing');">Balancing covariates in randomized experiments using the Gram-Schmidt walk.</a>
 					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Harshaw2019Balancing_abstract" aria-expanded="false" aria-controls="#Harshaw2019Balancing_abstract">Abstract</button>
 				</h4>
-				<div class="paperinfo"><span class="coauthors">With <a href="http://www.chrisharshaw.com/?page_id=4">Christopher Harshaw</a>, <a href="http://www.cs.yale.edu/homes/spielman/">Daniel Spielman</a> and <a href="https://sites.google.com/site/pengzhang27182/">Peng Zhang</a>.</span></div>
+				<div class="paperinfo"><span class="coauthors">With <a href="http://www.chrisharshaw.com">Christopher Harshaw</a>, <a href="http://www.cs.yale.edu/homes/spielman/">Daniel Spielman</a> and <a href="https://sites.google.com/site/pengzhang27182/">Peng Zhang</a>.</span></div>
 				<div class="collapsecontainer"><div class="collapse" id="Harshaw2019Balancing_abstract"><div class="well well-sm abstract">The paper introduces a class of experimental designs that allows experimenters to control the robustness and efficiency of their experiments. The designs build on a recently introduced algorithm in discrepancy theory, the Gram-Schmidt walk. We provide a tight analysis of this algorithm, allowing us to prove important properties of the designs it produces. These designs aim to simultaneously balance all linear functions of the covariates, and the variance of an estimator of the average treatment effect is shown to be bounded by a quantity that is proportional to the loss function of a ridge regression of the potential outcomes on the covariates. No regression is actually conducted, and one may see the procedure as regression adjustment by design. The class of designs is parameterized so to give experimenters control over the worse case performance of the treatment effect estimator. Greater covariate balance is attained by allowing for a less robust design in terms of worst case variance. We argue that the trade-off between robustness and efficiency is an inherent aspect of experimental design. Finally, we provide non-asymptotic tail bounds for the treatment effect estimator under the class of designs we describe.</div></div></div>
 			</li>
 		
@@ -127,15 +127,6 @@
 				</h4>
 				
 				<div class="collapsecontainer"><div class="collapse" id="Savje2019Matchingwithoutreplacement_abstract"><div class="well well-sm abstract">The paper demonstrates that the matching estimator is not generally consistent for the average treatment effect of the treated when the matching is done without replacement using propensity scores. To achieve consistency, practitioners must either assume that no unit exists with a propensity score greater than one-half or assume that there is no confounding among such units. Illustrations suggest that the result applies also to matching using other metrics as long as it is done without replacement.</div></div></div>
-			</li>
-		
-			<li>
-				<h4>
-					<a href="https://arxiv.org/abs/1711.06399" onclick="ga('send', 'event', 'paper', 'Savje2018EATE');">Average treatment effects in the presence of unknown interference.</a>
-					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Savje2018EATE_abstract" aria-expanded="false" aria-controls="#Savje2018EATE_abstract">Abstract</button>
-				</h4>
-				<div class="paperinfo"><span class="coauthors">With <a href="https://peteraronow.github.io">Peter Aronow</a> and <a href="http://www.bios.unc.edu/~mhudgens/">Michael Hudgens</a>.</span></div>
-				<div class="collapsecontainer"><div class="collapse" id="Savje2018EATE_abstract"><div class="well well-sm abstract">We investigate large-sample properties of treatment effect estimators under unknown interference in randomized experiments. The inferential target is a generalization of the average treatment effect estimand that marginalizes over potential spillover effects. We show that estimators commonly used to estimate treatment effects under no-interference are consistent for the generalized estimand for most experimental designs under limited but otherwise arbitrary and unknown interference. The rates of convergence depend on the rate at which the amount of interference grows and the degree to which it aligns with dependencies in treatment assignment. Importantly for practitioners, the results imply that if one erroneously assumes that units do not interfere in a setting with limited, or even moderate, interference, standard estimators are nevertheless likely to be close to an average treatment effect if the sample is sufficiently large.</div></div></div>
 			</li>
 		
 			<li>
@@ -163,12 +154,12 @@
 		<ul class="paperlist pubs">
 			<li>
 				<h4>
-					<a href="https://www.sciencedirect.com/science/article/pii/S0378375819301211" onclick="ga('send', 'event', 'paper', 'Delevoye2020ConsistencyHT');">Consistency of the Horvitz-Thompson estimator under general sampling and experimental designs.</a>
-					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Delevoye2020ConsistencyHT_abstract" aria-expanded="false" aria-controls="#Delevoye2020ConsistencyHT_abstract">Abstract</button>
+					<a href="https://www.e-publications.org/ims/submission/AOS/user/submissionFile/43142?confirm=f03828f2" onclick="ga('send', 'event', 'paper', 'Savje2018EATE');">Average treatment effects in the presence of unknown interference.</a>
+					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Savje2018EATE_abstract" aria-expanded="false" aria-controls="#Savje2018EATE_abstract">Abstract</button>
 				</h4>
-				<div class="paperinfo"><span class="coauthors">With <a href="https://politicalscience.yale.edu/people/angele-delevoye">Angèle Delevoye</a>.</span></div>
-				<div class="paperinfo"><span class="journalname">Journal of Statistical Planning and Inference</span> (2020), 207, 190&ndash;197.</div>
-				<div class="collapsecontainer"><div class="collapse" id="Delevoye2020ConsistencyHT_abstract"><div class="well well-sm abstract">We extend current concentration results for the Horvitz-Thompson estimator in finite population settings. The estimator is demonstrated to converge in quadratic mean to its target under weaker and more general conditions than previously known. Specifically, we do not require that the variables of interest nor the normalized inclusion probabilities are bounded. Rates of convergence are provided.</div></div></div>
+				<div class="paperinfo"><span class="coauthors">With <a href="https://peteraronow.github.io">Peter Aronow</a> and <a href="http://www.bios.unc.edu/~mhudgens/">Michael Hudgens</a>.</span></div>
+				<div class="paperinfo"><span class="journalname">Annals of Statistics</span> (2020), in print.</div>
+				<div class="collapsecontainer"><div class="collapse" id="Savje2018EATE_abstract"><div class="well well-sm abstract">We investigate large-sample properties of treatment effect estimators under unknown interference in randomized experiments. The inferential target is a generalization of the average treatment effect estimand that marginalizes over potential spillover effects. We show that estimators commonly used to estimate treatment effects under no-interference are consistent for the generalized estimand for most experimental designs under limited but otherwise arbitrary and unknown interference. The rates of convergence depend on the rate at which the amount of interference grows and the degree to which it aligns with dependencies in treatment assignment. Importantly for practitioners, the results imply that if one erroneously assumes that units do not interfere in a setting with limited, or even moderate, interference, standard estimators are nevertheless likely to be close to an average treatment effect if the sample is sufficiently large.</div></div></div>
 			</li>
 		
 			<li>
@@ -183,12 +174,12 @@
 		
 			<li>
 				<h4>
-					<a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1721245" onclick="ga('send', 'event', 'paper', 'Aronow2020BookOfWhy');">Review: The Book of Why.</a>
-					
+					<a href="https://www.sciencedirect.com/science/article/pii/S0378375819301211" onclick="ga('send', 'event', 'paper', 'Delevoye2020ConsistencyHT');">Consistency of the Horvitz-Thompson estimator under general sampling and experimental designs.</a>
+					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Delevoye2020ConsistencyHT_abstract" aria-expanded="false" aria-controls="#Delevoye2020ConsistencyHT_abstract">Abstract</button>
 				</h4>
-				<div class="paperinfo"><span class="coauthors">With <a href="https://peteraronow.github.io">Peter Aronow</a>.</span></div>
-				<div class="paperinfo"><span class="journalname">Journal of the American Statistical Association</span> (2020), in print.</div>
-				
+				<div class="paperinfo"><span class="coauthors">With <a href="https://politicalscience.yale.edu/people/angele-delevoye">Angèle Delevoye</a>.</span></div>
+				<div class="paperinfo"><span class="journalname">Journal of Statistical Planning and Inference</span> (2020), 207, 190&ndash;197.</div>
+				<div class="collapsecontainer"><div class="collapse" id="Delevoye2020ConsistencyHT_abstract"><div class="well well-sm abstract">We extend current concentration results for the Horvitz-Thompson estimator in finite population settings. The estimator is demonstrated to converge in quadratic mean to its target under weaker and more general conditions than previously known. Specifically, we do not require that the variables of interest nor the normalized inclusion probabilities are bounded. Rates of convergence are provided.</div></div></div>
 			</li>
 		
 			<li>
@@ -197,8 +188,18 @@
 					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Bengtsson2019Iodine_abstract" aria-expanded="false" aria-controls="#Bengtsson2019Iodine_abstract">Abstract</button>
 				</h4>
 				<div class="paperinfo"><span class="coauthors">With <a href="https://sites.google.com/site/nikbe825/">Niklas Bengtsson</a> and <a href="https://www.unicef.org/media/experts/stefan-swartling-peterson">Stefan Swartling Peterson</a>.</span></div>
-				<div class="paperinfo"><span class="journalname">Scandinavian Journal of Economics</span> (2019), in print.</div>
+				<div class="paperinfo"><span class="journalname">Scandinavian Journal of Economics</span> (2020), 122(2), 582&ndash;621.</div>
 				<div class="collapsecontainer"><div class="collapse" id="Bengtsson2019Iodine_abstract"><div class="well well-sm abstract">Scholars have theorized that congenital health endowment is an important determinant of economic outcomes later in a person&#39;s life. Field, Robles and Torero [2009, American Economic Journal: Applied Economics, 1(4), 140--169] find large increases in educational attainment caused by a reduction of fetal iodine deficiency following a set of iodine supplementation programs in Tanzania. We revisit the Tanzanian iodine programs with a narrow and wide replication of the study by Field et al. We are able to exactly replicate the original results. We find, however, that the findings are sensitive to alternative specification choices and sample restrictions. We try to address some of these concerns in the wide replication; we increase the sample size fourfold and improve the precision of the treatment variable by incorporating new institutional and medical insights. Despite the improvements, no effect is found. We conclude that the available data do not provide sufficient power to detect a possible effect since treatment assignment cannot be measured with sufficient precision.</div></div></div>
+			</li>
+		
+			<li>
+				<h4>
+					<a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1721245" onclick="ga('send', 'event', 'paper', 'Aronow2020BookOfWhy');">Review: The Book of Why.</a>
+					
+				</h4>
+				<div class="paperinfo"><span class="coauthors">With <a href="https://peteraronow.github.io">Peter Aronow</a>.</span></div>
+				<div class="paperinfo"><span class="journalname">Journal of the American Statistical Association</span> (2020), 115(529), 482&ndash;485.</div>
+				
 			</li>
 		
 			<li>
@@ -238,7 +239,7 @@
 		</ul>
 
 		<div class="updated-time">
-			Last updated February 17, 2020.
+			Last updated May 4, 2020.
 		</div>
 	</div>
 
