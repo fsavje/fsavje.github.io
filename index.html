@@ -104,6 +104,15 @@
 		<ul class="paperlist wps">
 			<li>
 				<h4>
+					<a href="https://arxiv.org/abs/2103.06392" onclick="ga('send', 'event', 'paper', 'Harshaw2021Design');">Design and analysis of bipartite experiments under a linear exposure-response model.</a>
+					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Harshaw2021Design_abstract" aria-expanded="false" aria-controls="#Harshaw2021Design_abstract">Abstract</button>
+				</h4>
+				<div class="paperinfo"><span class="coauthors">With <a href="http://www.chrisharshaw.com">Christopher Harshaw</a>, <a href="https://www.davideisenstat.com">David Eisenstat</a>, <a href="https://research.google/people/mirrokni/">Vahab Mirrokni</a> and <a href="https://jean.pouget-abadie.com">Jean Pouget-Abadie</a>.</span></div>
+				<div class="collapsecontainer"><div class="collapse" id="Harshaw2021Design_abstract"><div class="well well-sm abstract">In a bipartite experiment, units that are assigned treatments differ from the units for which we measure outcomes. The two groups of units are connected by a bipartite graph, governing how the treated units can affect the outcome units. Often motivated by experiments in marketplaces, the bipartite experimental framework has been used for example to investigate the causal effects of supply-side changes on demand-side behavior. In this paper, we consider the problem of estimating the average total treatment effect in the bipartite experimental framework under a linear exposure-response model. We introduce the Exposure Reweighted Linear (ERL) Estimator, an unbiased linear estimator of the average treatment effect in this setting. We show that the estimator is consistent and asymptotically normal, provided that the bipartite graph is sufficiently sparse. We derive a variance estimator which facilitates confidence intervals based on a normal approximation. In addition, we introduce Exposure-Design, a cluster-based design which aims to increase the precision of the ERL estimator by realizing desirable exposure distributions. Finally, we demonstrate the effectiveness of the described estimator and design with an application using a publicly available Amazon user-item review graph.</div></div></div>
+			</li>
+		
+			<li>
+				<h4>
 					<a href="https://arxiv.org/abs/1911.03071" onclick="ga('send', 'event', 'paper', 'Harshaw2019Balancing');">Balancing covariates in randomized experiments using the Gram-Schmidt walk.</a>
 					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Harshaw2019Balancing_abstract" aria-expanded="false" aria-controls="#Harshaw2019Balancing_abstract">Abstract</button>
 				</h4>
@@ -131,7 +140,7 @@
 		</ul>
 
 
-		<h2>Publications</h2>
+		<h2>Recent publications</h2>
 
 		<ul class="paperlist pubs">
 			<li>
@@ -143,7 +152,7 @@
 				<div class="paperinfo"><span class="journalname">Biometrika</span> (2021), in print.</div>
 				<div class="collapsecontainer"><div class="collapse" id="Savje2019Matchingwithoutreplacement_abstract"><div class="well well-sm abstract">The paper shows that matching without replacement on propensity scores produces estimators that generally are inconsistent for the average treatment effect of the treated. To achieve consistency, practitioners must either assume that no units exist with propensity scores greater than one-half or assume that there is no confounding among such units. The result is not driven by the use of propensity scores, and similar artifacts arise when matching on other scores as long as it is without replacement.</div></div></div>
 			</li>
-		
+			
 			<li>
 				<h4>
 					<a href="https://arxiv.org/abs/1703.03882" onclick="ga('send', 'event', 'paper', 'Savje2017FullMatch');">Generalized Full Matching.</a>
@@ -153,7 +162,7 @@
 				<div class="paperinfo"><span class="journalname">Political Analysis</span> (2021), in print.</div>
 				<div class="collapsecontainer"><div class="collapse" id="Savje2017FullMatch_abstract"><div class="well well-sm abstract">Matching is a conceptually straightforward method to make groups of units comparable on observed characteristics. The method is, however, limited to settings where the study design is simple and the sample is moderately sized. We illustrate these limitations by asking what the causal effects would have been if a large-scale voter mobilization experiment that took place in Michigan for the 2006 election were scaled up to the full population. Matching could help us answer this question, but no existing matching method can accommodate the six treatment arms and the 6,762,701 observations involved in the study. To offer a solution this and similar empirical problems, we introduce a generalization of the full matching method. The associated algorithm produces near-optimal matchings and can be used with any number of treatment conditions. The worst-case maximum within-group dissimilarity is no worse than four times the optimal solution, and simulation results indicate that it on average comes considerably closer to the optimal solution. Despite its ability to balance the treatment groups, the algorithm is fast and uses little memory. It terminates in linearithmic time using linear space. This enables investigators to construct well-performing matchings within minutes even in complex studies with samples of several million units.</div></div></div>
 			</li>
-		
+			
 			<li>
 				<h4>
 					<a href="https://projecteuclid.org/journals/annals-of-statistics/volume-49/issue-2/Average-treatment-effects-in-the-presence-of-unknown-interference/10.1214/20-AOS1973.short" onclick="ga('send', 'event', 'paper', 'Savje2021Average');">Average treatment effects in the presence of unknown interference.</a>
@@ -163,7 +172,7 @@
 				<div class="paperinfo"><span class="journalname">Annals of Statistics</span> (2021), 49(2), 673&ndash;701.</div>
 				<div class="collapsecontainer"><div class="collapse" id="Savje2021Average_abstract"><div class="well well-sm abstract">We investigate large-sample properties of treatment effect estimators under unknown interference in randomized experiments. The inferential target is a generalization of the average treatment effect estimand that marginalizes over potential spillover effects. We show that estimators commonly used to estimate treatment effects under no interference are consistent for the generalized estimand for several common experimental designs under limited but otherwise arbitrary and unknown interference. The rates of convergence depend on the growth rate of the unit-average amount of interference and the degree to which the interference aligns with dependencies in treatment assignment. Importantly for practitioners, the results imply that even if one erroneously assumes that units do not interfere in a setting with moderate interference, standard estimators are nevertheless likely to be close to an average treatment effect if the sample is sufficiently large. Conventional confidence statements may, however, not be accurate.</div></div></div>
 			</li>
-		
+			
 			<li>
 				<h4>
 					<a href="https://projecteuclid.org/journals/statistical-science/volume-35/issue-3/Comment--Matching-Methods-for-Observational-Studies-Derived-from-Large/10.1214/19-STS739.short" onclick="ga('send', 'event', 'paper', 'Savje2020Matching');">Comment: Matching Methods for Observational Studies Derived from Large Administrative Databases.</a>
@@ -173,7 +182,7 @@
 				<div class="paperinfo"><span class="journalname">Statistical Science</span> (2020), 35(3), 356&ndash;360.</div>
 				
 			</li>
-		
+			
 			<li>
 				<h4>
 					<a href="https://www.sciencedirect.com/science/article/pii/S0378375819301211" onclick="ga('send', 'event', 'paper', 'Delevoye2020ConsistencyHT');">Consistency of the Horvitz-Thompson estimator under general sampling and experimental designs.</a>
@@ -183,17 +192,7 @@
 				<div class="paperinfo"><span class="journalname">Journal of Statistical Planning and Inference</span> (2020), 207, 190&ndash;197.</div>
 				<div class="collapsecontainer"><div class="collapse" id="Delevoye2020ConsistencyHT_abstract"><div class="well well-sm abstract">We extend current concentration results for the Horvitz-Thompson estimator in finite population settings. The estimator is demonstrated to converge in quadratic mean to its target under weaker and more general conditions than previously known. Specifically, we do not require that the variables of interest nor the normalized inclusion probabilities are bounded. Rates of convergence are provided.</div></div></div>
 			</li>
-		
-			<li>
-				<h4>
-					<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/sjoe.12341" onclick="ga('send', 'event', 'paper', 'Bengtsson2019Iodine');">Fetal iodine deficiency and schooling.</a>
-					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Bengtsson2019Iodine_abstract" aria-expanded="false" aria-controls="#Bengtsson2019Iodine_abstract">Abstract</button>
-				</h4>
-				<div class="paperinfo"><span class="coauthors">With <a href="https://sites.google.com/site/nikbe825/">Niklas Bengtsson</a> and <a href="https://www.unicef.org/media/experts/stefan-swartling-peterson">Stefan Swartling Peterson</a>.</span></div>
-				<div class="paperinfo"><span class="journalname">Scandinavian Journal of Economics</span> (2020), 122(2), 582&ndash;621.</div>
-				<div class="collapsecontainer"><div class="collapse" id="Bengtsson2019Iodine_abstract"><div class="well well-sm abstract">Scholars have theorized that congenital health endowment is an important determinant of economic outcomes later in a person&#39;s life. Field, Robles and Torero [2009, American Economic Journal: Applied Economics, 1(4), 140--169] find large increases in educational attainment caused by a reduction of fetal iodine deficiency following a set of iodine supplementation programs in Tanzania. We revisit the Tanzanian iodine programs with a narrow and wide replication of the study by Field et al. We are able to exactly replicate the original results. We find, however, that the findings are sensitive to alternative specification choices and sample restrictions. We try to address some of these concerns in the wide replication; we increase the sample size fourfold and improve the precision of the treatment variable by incorporating new institutional and medical insights. Despite the improvements, no effect is found. We conclude that the available data do not provide sufficient power to detect a possible effect since treatment assignment cannot be measured with sufficient precision.</div></div></div>
-			</li>
-		
+			
 			<li>
 				<h4>
 					<a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1721245" onclick="ga('send', 'event', 'paper', 'Aronow2020BookOfWhy');">Review: The Book of Why.</a>
@@ -203,22 +202,17 @@
 				<div class="paperinfo"><span class="journalname">Journal of the American Statistical Association</span> (2020), 115(529), 482&ndash;485.</div>
 				
 			</li>
-		
-			<li>
-				<h4>
-					<a href="https://www.pnas.org/content/113/27/7369" onclick="ga('send', 'event', 'paper', 'Higgins2016Threshold');">Improving massive experiments with threshold blocking.</a>
-					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Higgins2016Threshold_abstract" aria-expanded="false" aria-controls="#Higgins2016Threshold_abstract">Abstract</button>
-				</h4>
-				<div class="paperinfo"><span class="coauthors">With <a href="http://www-personal.k-state.edu/~mikehiggins/">Michael Higgins</a> and <a href="http://sekhon.berkeley.edu">Jasjeet Sekhon</a>.</span></div>
-				<div class="paperinfo"><span class="journalname">Proceedings of the National Academy of Sciences</span> (2016), 113(27), 7369&ndash;7376.</div>
-				<div class="collapsecontainer"><div class="collapse" id="Higgins2016Threshold_abstract"><div class="well well-sm abstract">Inferences from randomized experiments can be improved by blocking: assigning treatment in fixed proportions within groups of similar units. However, the use of the method is limited by the difficulty in deriving these groups. Current blocking methods are restricted to special cases or run in exponential time; are not sensitive to clustering of data points; and are often heuristic, providing an unsatisfactory solution in many common instances. We present an algorithm that implements a widely applicable class of blocking—threshold blocking—that solves these problems. Given a minimum required group size and a distance metric, we study the blocking problem of minimizing the maximum distance between any two units within the same group. We prove this is a nondeterministic polynomial-time hard problem and derive an approximation algorithm that yields a blocking where the maximum distance is guaranteed to be, at most, four times the optimal value. This algorithm runs in O(n log n) time with O(n) space complexity. This makes it, to our knowledge, the first blocking method with an ensured level of performance that works in massive experiments. Whereas many commonly used algorithms form pairs of units, our algorithm constructs the groups flexibly for any chosen minimum size. This facilitates complex experiments with several treatment arms and clustered data. A simulation study demonstrates the efficiency and efficacy of the algorithm; tens of millions of units can be blocked using a desktop computer in a few minutes.</div></div></div>
-			</li>
-		</ul>
+			</ul>
 
 
 		<h2>Software</h2>
 
 		<ul class="paperlist software">
+			<li>
+				<h4><a href="https://github.com/crharshaw/GSWDesign.jl" onclick="ga('send', 'event', 'software', 'GSWDesign.jl');"><tt>GSWDesign.jl</tt></a></h4>
+				<div class="paperinfo softwaretagline">Julia package with a fast implementation of the Gram-Schmidt Walk for balancing covariates in randomized experiments (also R wrapper).</div>
+			</li>
+		
 			<li>
 				<h4><a href="https://github.com/fsavje/distances" onclick="ga('send', 'event', 'software', 'distances');"><tt>distances</tt></a></h4>
 				<div class="paperinfo softwaretagline">R package with tools for distance metrics.</div>
@@ -241,7 +235,7 @@
 		</ul>
 
 		<div class="updated-time">
-			Last updated June 20, 2021.
+			Last updated August 4, 2021.
 		</div>
 	</div>
 
