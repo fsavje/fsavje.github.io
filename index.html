@@ -128,30 +128,22 @@
 				<div class="paperinfo"><span class="coauthors">With <a href="https://pmaronow.github.io">P.M. Aronow</a>, <a href="https://www.hsph.harvard.edu/james-robins/">James Robins</a>, <a href="https://statistics.berkeley.edu/people/theo-saarinen">Theo Saarinen</a> and <a href="http://sekhon.berkeley.edu">Jasjeet Sekhon</a>.</span></div>
 				<div class="collapsecontainer"><div class="collapse" id="Aronow2021Nonparametric_abstract"><div class="well well-sm abstract">We argue that randomized controlled trials (RCTs) are special even among settings where average treatment effects are identified by a nonparametric unconfoundedness assumption. This claim follows from two results of Robins and Ritov (1997): (1) with at least one continuous covariate control, no estimator of the average treatment effect exists which is uniformly consistent without further assumptions, (2) knowledge of the propensity score yields a uniformly consistent estimator and honest confidence intervals that shrink at parametric rates with increasing sample size, regardless of how complicated the propensity score function is. We emphasize the latter point, and note that successfully-conducted RCTs provide knowledge of the propensity score to the researcher. We discuss modern developments in covariate adjustment for RCTs, noting that statistical models and machine learning methods can be used to improve efficiency while preserving finite sample unbiasedness. We conclude that statistical inference has the potential to be fundamentally more difficult in observational settings than it is in RCTs, even when all confounders are measured.</div></div></div>
 			</li>
-		
-			<li>
-				<h4>
-					<a href="https://arxiv.org/abs/1911.03071" onclick="ga('send', 'event', 'paper', 'Harshaw2019Balancing');">Balancing covariates in randomized experiments using the Gram-Schmidt walk.</a>
-					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Harshaw2019Balancing_abstract" aria-expanded="false" aria-controls="#Harshaw2019Balancing_abstract">Abstract</button>
-				</h4>
-				<div class="paperinfo"><span class="coauthors">With <a href="http://www.chrisharshaw.com">Christopher Harshaw</a>, <a href="http://www.cs.yale.edu/homes/spielman/">Daniel Spielman</a> and <a href="https://sites.google.com/site/pengzhang27182/">Peng Zhang</a>.</span></div>
-				<div class="collapsecontainer"><div class="collapse" id="Harshaw2019Balancing_abstract"><div class="well well-sm abstract">The paper introduces a class of experimental designs that allows experimenters to control the robustness and efficiency of their experiments. The designs build on a recently introduced algorithm in discrepancy theory, the Gram-Schmidt walk. We provide a tight analysis of this algorithm, allowing us to prove important properties of the designs it produces. These designs aim to simultaneously balance all linear functions of the covariates, and the variance of an estimator of the average treatment effect is shown to be bounded by a quantity that is proportional to the loss function of a ridge regression of the potential outcomes on the covariates. No regression is actually conducted, and one may see the procedure as regression adjustment by design. The class of designs is parameterized so to give experimenters control over the worse case performance of the treatment effect estimator. Greater covariate balance is attained by allowing for a less robust design in terms of worst case variance. We argue that the trade-off between robustness and efficiency is an inherent aspect of experimental design. Finally, we provide non-asymptotic tail bounds for the treatment effect estimator under the class of designs we describe.</div></div></div>
-			</li>
-		
-			<li>
-				<h4>
-					<a href="https://fredriksavje.com/papers/incumbency.pdf" onclick="ga('send', 'event', 'paper', 'Savje2015Incumbency');">Defining and Identifying Incumbency Effects.</a>
-					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Savje2015Incumbency_abstract" aria-expanded="false" aria-controls="#Savje2015Incumbency_abstract">Abstract</button>
-				</h4>
-				
-				<div class="collapsecontainer"><div class="collapse" id="Savje2015Incumbency_abstract"><div class="well well-sm abstract">Recent studies of the effects of political incumbency on election outcomes have almost exclusively used regression discontinuity designs. This shift from the past methods has provided credible identification, but only for a specific type of incumbency effect: the effect for parties. The other effects in the literature, most notably the personal incumbency effect, have largely been abandoned together with the methods previously used to estimate them. This study aims at connecting the new methodical strides with the effects discussed in the past literature. A causal model is first introduced which allows for formal definitions of several effects that previously only been discussed informally. The model also allows previous methods to be revisited and derive how their estimated effects are related. Several strategies are then introduced which, under suitable assumptions, can identify some of the newly defined effects. Last, using these strategies, the incumbency effects in Brazilian mayoral elections are investigated.</div></div></div>
-			</li>
 		</ul>
 
 
 		<h2>Recent publications</h2>
 
 		<ul class="paperlist pubs">
+			<li>
+				<h4>
+					<a href="https://doi.org/10.1080/01621459.2023.2285474" onclick="ga('send', 'event', 'paper', 'Harshaw2019Balancing');">Balancing Covariates in Randomized Experiments with the Gram–Schmidt Walk Design.</a>
+					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Harshaw2019Balancing_abstract" aria-expanded="false" aria-controls="#Harshaw2019Balancing_abstract">Abstract</button>
+				</h4>
+				<div class="paperinfo"><span class="coauthors">With <a href="http://www.chrisharshaw.com">Christopher Harshaw</a>, <a href="http://www.cs.yale.edu/homes/spielman/">Daniel Spielman</a> and <a href="https://sites.google.com/site/pengzhang27182/">Peng Zhang</a>.</span></div>
+				<div class="paperinfo"><span class="journalname">Journal of the American Statistical Association</span> (2023), in print.</div>
+				<div class="collapsecontainer"><div class="collapse" id="Harshaw2019Balancing_abstract"><div class="well well-sm abstract">The design of experiments involves a compromise between covariate balance and robustness. This paper provides a formalization of this trade-off and describes an experimental design that allows experimenters to navigate it. The design is specified by a robustness parameter that bounds the worst-case mean squared error of an estimator of the average treatment effect. Subject to the experimenter’s desired level of robustness, the design aims to simultaneously balance all linear functions of potentially many covariates. Less robustness allows for more balance. We show that the mean squared error of the estimator is bounded in finite samples by the minimum of the loss function of an implicit ridge regression of the potential outcomes on the covariates. Asymptotically, the design perfectly balances all linear functions of a growing number of covariates with a diminishing reduction in robustness, effectively allowing experimenters to escape the compromise between balance and robustness in large samples. Finally, we describe conditions that ensure asymptotic normality and provide a conservative variance estimator, which facilitate the construction of asymptotically valid confidence intervals.</div></div></div>
+			</li>
+			
 			<li>
 				<h4>
 					<a href="https://doi.org/10.1093/biomet/asad019" onclick="ga('send', 'event', 'paper', 'Savje2019Misspecified');">Causal inference with misspecified exposure mappings: separating definitions and assumptions.</a>
@@ -180,26 +172,6 @@
 				<div class="paperinfo"><span class="coauthors">With <a href="https://politicalscience.yale.edu/people/drew-stommes">Drew Stommes</a> and <a href="https://pmaronow.github.io">P.M. Aronow</a>.</span></div>
 				<div class="paperinfo"><span class="journalname">Research &amp; Politics</span> (2023), 10(2).</div>
 				<div class="collapsecontainer"><div class="collapse" id="Stommes2021Reliability_abstract"><div class="well well-sm abstract">The regression discontinuity (RD) design offers identification of causal effects under weak assumptions, earning it a position as a standard method in modern political science research. But identification does not necessarily imply that causal effects can be estimated accurately with limited data. In this paper, we highlight that estimation under the RD design involves serious statistical challenges and investigate how these challenges manifest themselves in the empirical literature in political science. We collect all RD-based findings published in top political science journals in the period 2009–2018. The distribution of published results exhibits pathological features; estimates tend to bunch just above the conventional level of statistical significance. A reanalysis of all studies with available data suggests that researcher discretion is not a major driver of these features. However, researchers tend to use inappropriate methods for inference, rendering standard errors artificially small. A retrospective power analysis reveals that most of these studies were underpowered to detect all but large effects. The issues we uncover, combined with well-documented selection pressures in academic publishing, cause concern that many published findings using the RD design may be exaggerated.</div></div></div>
-			</li>
-			
-			<li>
-				<h4>
-					<a href="https://doi.org/10.1093/biomet/asab035" onclick="ga('send', 'event', 'paper', 'Savje2019Matchingwithoutreplacement');">On the inconsistency of matching without replacement.</a>
-					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Savje2019Matchingwithoutreplacement_abstract" aria-expanded="false" aria-controls="#Savje2019Matchingwithoutreplacement_abstract">Abstract</button>
-				</h4>
-				
-				<div class="paperinfo"><span class="journalname">Biometrika</span> (2022), 109(2), 551&ndash;558.</div>
-				<div class="collapsecontainer"><div class="collapse" id="Savje2019Matchingwithoutreplacement_abstract"><div class="well well-sm abstract">The paper shows that matching without replacement on propensity scores produces estimators that generally are inconsistent for the average treatment effect of the treated. To achieve consistency, practitioners must either assume that no units exist with propensity scores greater than 1/2 or assume that there is no confounding among such units. The result is not driven by the use of propensity scores, and similar artifacts arise when matching on other scores as long as it is without replacement.</div></div></div>
-			</li>
-			
-			<li>
-				<h4>
-					<a href="https://projecteuclid.org/journals/annals-of-statistics/volume-49/issue-2/Average-treatment-effects-in-the-presence-of-unknown-interference/10.1214/20-AOS1973.short" onclick="ga('send', 'event', 'paper', 'Savje2021Average');">Average treatment effects in the presence of unknown interference.</a>
-					<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#Savje2021Average_abstract" aria-expanded="false" aria-controls="#Savje2021Average_abstract">Abstract</button>
-				</h4>
-				<div class="paperinfo"><span class="coauthors">With <a href="https://pmaronow.github.io">P.M. Aronow</a> and <a href="http://www.bios.unc.edu/~mhudgens/">Michael Hudgens</a>.</span></div>
-				<div class="paperinfo"><span class="journalname">Annals of Statistics</span> (2021), 49(2), 673&ndash;701.</div>
-				<div class="collapsecontainer"><div class="collapse" id="Savje2021Average_abstract"><div class="well well-sm abstract">We investigate large-sample properties of treatment effect estimators under unknown interference in randomized experiments. The inferential target is a generalization of the average treatment effect estimand that marginalizes over potential spillover effects. We show that estimators commonly used to estimate treatment effects under no interference are consistent for the generalized estimand for several common experimental designs under limited but otherwise arbitrary and unknown interference. The rates of convergence depend on the growth rate of the unit-average amount of interference and the degree to which the interference aligns with dependencies in treatment assignment. Importantly for practitioners, the results imply that even if one erroneously assumes that units do not interfere in a setting with moderate interference, standard estimators are nevertheless likely to be close to an average treatment effect if the sample is sufficiently large. Conventional confidence statements may, however, not be accurate.</div></div></div>
 			</li>
 			</ul>
 
@@ -234,7 +206,7 @@
 		</ul>
 
 		<div class="updated-time">
-			Last updated June 21, 2023.
+			Last updated November 22, 2023.
 		</div>
 	</div>
 
