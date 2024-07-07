@@ -4,7 +4,8 @@
     <title>Fredrik Sävje</title>
     <link>http://fredriksavje.com/</link>
     <description>Recent content on Fredrik Sävje</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://fredriksavje.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://fredriksavje.com/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
